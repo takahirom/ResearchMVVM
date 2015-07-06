@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:text='@{"Red:" + viewModel.g}'/>
+            app:text='@{"Green:" + viewModel.g}'/>
 
         <SeekBar
             android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:text='@{"Red:" + viewModel.b}'/>
+            app:text='@{"Blue:" + viewModel.b}'/>
 
         <SeekBar
             android:layout_width="match_parent"
